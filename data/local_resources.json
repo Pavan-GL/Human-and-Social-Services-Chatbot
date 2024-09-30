@@ -1,0 +1,66 @@
+{
+    "housing": [
+        {
+            "name": "Shelter A",
+            "address": "123 Main St, Anytown, USA",
+            "phone": "555-1234",
+            "website": "http://sheltera.com",
+            "services": ["Emergency shelter", "Transitional housing", "Housing assistance"]
+        },
+        {
+            "name": "Shelter B",
+            "address": "456 Oak St, Anytown, USA",
+            "phone": "555-5678",
+            "website": "http://shelterb.com",
+            "services": ["Short-term housing", "Food assistance"]
+        }
+    ],
+    "healthcare": [
+        {
+            "name": "Community Clinic",
+            "address": "789 Pine St, Anytown, USA",
+            "phone": "555-9012",
+            "website": "http://communityclinic.com",
+            "services": ["Primary care", "Mental health services", "Preventive care"]
+        },
+        {
+            "name": "Wellness Center",
+            "address": "321 Maple St, Anytown, USA",
+            "phone": "555-3456",
+            "website": "http://wellnesscenter.com",
+            "services": ["Urgent care", "Counseling", "Substance abuse treatment"]
+        }
+    ],
+    "food_assistance": [
+        {
+            "name": "Food Bank A",
+            "address": "654 Elm St, Anytown, USA",
+            "phone": "555-7890",
+            "website": "http://foodbanka.com",
+            "services": ["Food distribution", "Nutrition education"]
+        },
+        {
+            "name": "Community Kitchen",
+            "address": "987 Birch St, Anytown, USA",
+            "phone": "555-1122",
+            "website": "http://communitykitchen.com",
+            "services": ["Hot meals", "Cooking classes"]
+        }
+    ],
+    "employment": [
+        {
+            "name": "Job Resource Center",
+            "address": "135 Cedar St, Anytown, USA",
+            "phone": "555-3141",
+            "website": "http://jobresourcecenter.com",
+            "services": ["Job search assistance", "Resume workshops", "Interview preparation"]
+        },
+        {
+            "name": "Workforce Development Agency",
+            "address": "246 Spruce St, Anytown, USA",
+            "phone": "555-2718",
+            "website": "http://workforcedevelopment.com",
+            "services": ["Training programs", "Career counseling"]
+        }
+    ]
+}

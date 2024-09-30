@@ -1,0 +1,79 @@
+{
+    "data": [
+        {
+            "intent": "housing",
+            "examples": [
+                "I need help finding housing.",
+                "Are there any shelters available?",
+                "How can I apply for housing assistance?",
+                "Can you help me with eviction support?",
+                "What are the options for low-income housing?",
+                "Where can I find affordable places to live?",
+                "Do you have information on temporary housing?",
+                "I'm looking for a place to stay for my family.",
+                "Can you guide me on housing grants?",
+                "What should I do if I'm about to be evicted?"
+            ]
+        },
+        {
+            "intent": "healthcare",
+            "examples": [
+                "What healthcare services are available?",
+                "I need medical assistance.",
+                "Are there any clinics nearby?",
+                "How can I access mental health support?",
+                "What is the process for getting health insurance?",
+                "Can you tell me about free health check-ups?",
+                "I'm looking for low-cost medical services.",
+                "How do I find a doctor who accepts my insurance?",
+                "What options do I have for mental health counseling?",
+                "Are there any urgent care facilities I can go to?"
+            ]
+        },
+        {
+            "intent": "food_assistance",
+            "examples": [
+                "Where can I find food banks?",
+                "I need help with food assistance.",
+                "Are there any programs for free meals?",
+                "Can you tell me about SNAP benefits?",
+                "How do I apply for food assistance?",
+                "What local resources provide free groceries?",
+                "I need information on food pantries in my area.",
+                "Are there community kitchens that serve meals?",
+                "How can I access emergency food supplies?",
+                "What are the eligibility requirements for food aid?"
+            ]
+        },
+        {
+            "intent": "employment",
+            "examples": [
+                "I am looking for job resources.",
+                "What job training programs are available?",
+                "Can you help me with my resume?",
+                "How do I apply for unemployment benefits?",
+                "What resources are available for finding a job?",
+                "Where can I get career counseling?",
+                "Are there job fairs happening soon?",
+                "How can I improve my job interview skills?",
+                "What assistance is available for job seekers?",
+                "Can you recommend online job boards?"
+            ]
+        },
+        {
+            "intent": "general_inquiry",
+            "examples": [
+                "Can you provide information on social services?",
+                "What types of assistance are available?",
+                "I have a question about local resources.",
+                "How can I find support for my family?",
+                "Where can I get more information about community services?",
+                "What services does the community center offer?",
+                "I'm looking for help navigating social programs.",
+                "How can I access support for domestic issues?",
+                "Are there workshops available for personal development?",
+                "What are the steps to get help from social services?"
+            ]
+        }
+    ]
+}

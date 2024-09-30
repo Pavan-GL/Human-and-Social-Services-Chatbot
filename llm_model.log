@@ -1,0 +1,436 @@
+2024-09-27 01:29:09,318 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-09-27 01:29:10,521 DEBUG:https://huggingface.co:443 "HEAD /gpt-2/resolve/main/config.json HTTP/11" 401 0
+2024-09-27 01:29:10,522 ERROR:Failed to initialize LLMModel: gpt-2 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2024-09-27 01:32:25,300 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-09-27 01:32:26,521 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-09-27 01:32:26,531 DEBUG:Attempting to acquire lock 1350630870944 on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\10c66461e4c109db5a2196bff4bb59be30396ed8.lock
+2024-09-27 01:32:26,532 DEBUG:Lock 1350630870944 acquired on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\10c66461e4c109db5a2196bff4bb59be30396ed8.lock
+2024-09-27 01:32:26,868 DEBUG:https://huggingface.co:443 "GET /gpt2/resolve/main/config.json HTTP/11" 200 665
+2024-09-27 01:32:26,915 DEBUG:Attempting to release lock 1350630870944 on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\10c66461e4c109db5a2196bff4bb59be30396ed8.lock
+2024-09-27 01:32:26,916 DEBUG:Lock 1350630870944 released on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\10c66461e4c109db5a2196bff4bb59be30396ed8.lock
+2024-09-27 01:32:28,211 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/model.safetensors HTTP/11" 302 0
+2024-09-27 01:32:28,231 DEBUG:Attempting to acquire lock 1350632557392 on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707.lock
+2024-09-27 01:32:28,231 DEBUG:Lock 1350632557392 acquired on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707.lock
+2024-09-27 01:32:28,233 DEBUG:Starting new HTTPS connection (1): cdn-lfs.hf.co:443
+2024-09-27 01:32:29,460 DEBUG:https://cdn-lfs.hf.co:443 "GET /gpt2/248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1727639536&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcyNzYzOTUzNn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9ncHQyLzI0OGRmYzM5MTE4NjllYzQ5M2M3NmU2NWJmMmZjZjdmNjE1ODI4YjAyNTRjMTJiNDczMTgyZjBmODFkM2E3MDc~cmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=Nq837DmjVeMu5l2UhT1R7cZAlu-R1beQfMmYnoYM-u9BJ4Q9LFdVaY1A2IUyuzgDM199DBvwYTHIbaiH6RIF2-kjzzH-g77ly0ylszso26wKVH3cqaAI1VMGvRHR6sXSjdEQHYuFPBRtQLRB3MrcExsK95vEzgR6xynFs-UKBmpHxpqmCW1jpJ1C7gY8sJGLGYurnp1mJGCv4wTlQiGSf5BDfrN30NrLDJxX5x7NTWuTyXsyqUiyI~VCdhy4kYwcvIVLCZMZ2IQm1aHj3ATsU5~LhMg0o03z7xJK9tcDes857Jx-ZIBP79mO994s6f7rQnjrYQ6PlVZeJde0yBoQsQ__&Key-Pair-Id=K3RPWS32NSSJCE HTTP/11" 200 548105171
+2024-09-27 01:34:02,652 DEBUG:Attempting to release lock 1350632557392 on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707.lock
+2024-09-27 01:34:02,659 DEBUG:Lock 1350632557392 released on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707.lock
+2024-09-27 01:34:04,233 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-09-27 01:34:04,236 DEBUG:Attempting to acquire lock 1350632568432 on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\3dc481ecc3b2c47a06ab4e20dba9d7f4b447bdf3.lock
+2024-09-27 01:34:04,237 DEBUG:Lock 1350632568432 acquired on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\3dc481ecc3b2c47a06ab4e20dba9d7f4b447bdf3.lock
+2024-09-27 01:34:04,564 DEBUG:https://huggingface.co:443 "GET /gpt2/resolve/main/generation_config.json HTTP/11" 200 124
+2024-09-27 01:34:04,569 DEBUG:Attempting to release lock 1350632568432 on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\3dc481ecc3b2c47a06ab4e20dba9d7f4b447bdf3.lock
+2024-09-27 01:34:04,569 DEBUG:Lock 1350632568432 released on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\3dc481ecc3b2c47a06ab4e20dba9d7f4b447bdf3.lock
+2024-09-27 01:34:04,917 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-09-27 01:34:04,919 DEBUG:Attempting to acquire lock 1350630883280 on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\be4d21d94f3b4687e5a54d84bf6ab46ed0f8defd.lock
+2024-09-27 01:34:04,920 DEBUG:Lock 1350630883280 acquired on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\be4d21d94f3b4687e5a54d84bf6ab46ed0f8defd.lock
+2024-09-27 01:34:05,241 DEBUG:https://huggingface.co:443 "GET /gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 26
+2024-09-27 01:34:05,246 DEBUG:Attempting to release lock 1350630883280 on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\be4d21d94f3b4687e5a54d84bf6ab46ed0f8defd.lock
+2024-09-27 01:34:05,246 DEBUG:Lock 1350630883280 released on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\be4d21d94f3b4687e5a54d84bf6ab46ed0f8defd.lock
+2024-09-27 01:34:05,635 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/vocab.json HTTP/11" 200 0
+2024-09-27 01:34:05,637 DEBUG:Attempting to acquire lock 1350633226832 on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\1f1d9aaca301414e7f6c9396df506798ff4eb9a6.lock
+2024-09-27 01:34:05,637 DEBUG:Lock 1350633226832 acquired on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\1f1d9aaca301414e7f6c9396df506798ff4eb9a6.lock
+2024-09-27 01:34:05,982 DEBUG:https://huggingface.co:443 "GET /gpt2/resolve/main/vocab.json HTTP/11" 200 1042301
+2024-09-27 01:34:07,481 DEBUG:Attempting to release lock 1350633226832 on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\1f1d9aaca301414e7f6c9396df506798ff4eb9a6.lock
+2024-09-27 01:34:07,481 DEBUG:Lock 1350633226832 released on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\1f1d9aaca301414e7f6c9396df506798ff4eb9a6.lock
+2024-09-27 01:34:07,800 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/merges.txt HTTP/11" 200 0
+2024-09-27 01:34:07,802 DEBUG:Attempting to acquire lock 1350633229376 on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\226b0752cac7789c48f0cb3ec53eda48b7be36cc.lock
+2024-09-27 01:34:07,802 DEBUG:Lock 1350633229376 acquired on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\226b0752cac7789c48f0cb3ec53eda48b7be36cc.lock
+2024-09-27 01:34:08,126 DEBUG:https://huggingface.co:443 "GET /gpt2/resolve/main/merges.txt HTTP/11" 200 456318
+2024-09-27 01:34:08,221 DEBUG:Attempting to release lock 1350633229376 on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\226b0752cac7789c48f0cb3ec53eda48b7be36cc.lock
+2024-09-27 01:34:08,221 DEBUG:Lock 1350633229376 released on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\226b0752cac7789c48f0cb3ec53eda48b7be36cc.lock
+2024-09-27 01:34:08,543 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer.json HTTP/11" 200 0
+2024-09-27 01:34:08,556 DEBUG:Attempting to acquire lock 1350633230432 on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\4b988bccc9dc5adacd403c00b4704976196548f8.lock
+2024-09-27 01:34:08,556 DEBUG:Lock 1350633230432 acquired on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\4b988bccc9dc5adacd403c00b4704976196548f8.lock
+2024-09-27 01:34:08,901 DEBUG:https://huggingface.co:443 "GET /gpt2/resolve/main/tokenizer.json HTTP/11" 200 1355256
+2024-09-27 01:34:09,247 DEBUG:Attempting to release lock 1350633230432 on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\4b988bccc9dc5adacd403c00b4704976196548f8.lock
+2024-09-27 01:34:09,247 DEBUG:Lock 1350633230432 released on C:\Users\Arkatiss123\.cache\huggingface\hub\.locks\models--gpt2\4b988bccc9dc5adacd403c00b4704976196548f8.lock
+2024-09-27 01:34:09,578 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/added_tokens.json HTTP/11" 404 0
+2024-09-27 01:34:09,912 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/special_tokens_map.json HTTP/11" 404 0
+2024-09-27 01:34:10,310 INFO:LLMModel initialized with GPT-2 model.
+2024-09-27 01:34:10,311 INFO:Chatbot initialized.
+2024-09-27 01:34:10,421 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-27 01:34:10,421 INFO:[33mPress CTRL+C to quit[0m
+2024-09-27 01:34:10,425 INFO: * Restarting with stat
+2024-09-27 01:34:45,910 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-09-27 01:34:47,130 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-09-27 01:34:48,825 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-09-27 01:34:49,474 INFO:LLMModel initialized with GPT-2 model.
+2024-09-27 01:34:49,474 INFO:Chatbot initialized.
+2024-09-27 01:34:49,507 WARNING: * Debugger is active!
+2024-09-27 01:34:49,515 INFO: * Debugger PIN: 120-038-382
+2024-09-27 01:34:49,811 INFO:127.0.0.1 - - [27/Sep/2024 01:34:49] "[33mGET / HTTP/1.1[0m" 404 -
+2024-09-27 01:35:16,192 INFO:127.0.0.1 - - [27/Sep/2024 01:35:16] "[33mGET / HTTP/1.1[0m" 404 -
+2024-09-27 01:35:23,063 INFO:127.0.0.1 - - [27/Sep/2024 01:35:23] "[33mGET / HTTP/1.1[0m" 404 -
+2024-09-27 01:35:47,438 INFO:127.0.0.1 - - [27/Sep/2024 01:35:47] "[31m[1mGET /chat HTTP/1.1[0m" 405 -
+2024-09-27 01:36:56,653 WARNING:Received empty message from client.
+2024-09-27 01:36:56,654 INFO:127.0.0.1 - - [27/Sep/2024 01:36:56] "[31m[1mPOST /chat HTTP/1.1[0m" 400 -
+2024-09-27 01:37:37,874 INFO:User input: I need assistance with finding a job.
+2024-09-27 01:37:37,878 INFO:Received user input: I need assistance with finding a job.
+2024-09-27 01:37:37,879 ERROR:Error in get_response: NLPUtils.categorize_request() missing 1 required positional argument: 'user_input'
+2024-09-27 01:37:37,880 INFO:Chatbot response: I'm sorry, but something went wrong. Please try again later.
+2024-09-27 01:37:37,880 INFO:127.0.0.1 - - [27/Sep/2024 01:37:37] "POST /chat HTTP/1.1" 200 -
+2024-09-27 01:37:42,012 INFO:User input: I need assistance with finding a job.
+2024-09-27 01:37:42,012 INFO:Received user input: I need assistance with finding a job.
+2024-09-27 01:37:42,012 ERROR:Error in get_response: NLPUtils.categorize_request() missing 1 required positional argument: 'user_input'
+2024-09-27 01:37:42,012 INFO:Chatbot response: I'm sorry, but something went wrong. Please try again later.
+2024-09-27 01:37:42,012 INFO:127.0.0.1 - - [27/Sep/2024 01:37:42] "POST /chat HTTP/1.1" 200 -
+2024-09-27 01:38:06,564 INFO:User input: Can you provide information on social services?
+2024-09-27 01:38:06,564 INFO:Received user input: Can you provide information on social services?
+2024-09-27 01:38:06,564 ERROR:Error in get_response: NLPUtils.categorize_request() missing 1 required positional argument: 'user_input'
+2024-09-27 01:38:06,564 INFO:Chatbot response: I'm sorry, but something went wrong. Please try again later.
+2024-09-27 01:38:06,565 INFO:127.0.0.1 - - [27/Sep/2024 01:38:06] "POST /chat HTTP/1.1" 200 -
+2024-09-27 01:38:08,749 INFO:User input: Can you provide information on social services?
+2024-09-27 01:38:08,750 INFO:Received user input: Can you provide information on social services?
+2024-09-27 01:38:08,750 ERROR:Error in get_response: NLPUtils.categorize_request() missing 1 required positional argument: 'user_input'
+2024-09-27 01:38:08,750 INFO:Chatbot response: I'm sorry, but something went wrong. Please try again later.
+2024-09-27 01:38:08,753 INFO:127.0.0.1 - - [27/Sep/2024 01:38:08] "POST /chat HTTP/1.1" 200 -
+2024-09-27 01:45:19,671 INFO:User input: Can you provide information on social services?
+2024-09-27 01:45:19,672 INFO:Received user input: Can you provide information on social services?
+2024-09-27 01:45:19,672 ERROR:Error in get_response: NLPUtils.categorize_request() missing 1 required positional argument: 'user_input'
+2024-09-27 01:45:19,672 INFO:Chatbot response: I'm sorry, but something went wrong. Please try again later.
+2024-09-27 01:45:19,673 INFO:127.0.0.1 - - [27/Sep/2024 01:45:19] "POST /chat HTTP/1.1" 200 -
+2024-09-27 01:45:20,871 INFO:User input: Can you provide information on social services?
+2024-09-27 01:45:20,871 INFO:Received user input: Can you provide information on social services?
+2024-09-27 01:45:20,871 ERROR:Error in get_response: NLPUtils.categorize_request() missing 1 required positional argument: 'user_input'
+2024-09-27 01:45:20,872 INFO:Chatbot response: I'm sorry, but something went wrong. Please try again later.
+2024-09-27 01:45:20,872 INFO:127.0.0.1 - - [27/Sep/2024 01:45:20] "POST /chat HTTP/1.1" 200 -
+2024-09-27 01:45:21,951 INFO:User input: Can you provide information on social services?
+2024-09-27 01:45:21,951 INFO:Received user input: Can you provide information on social services?
+2024-09-27 01:45:21,951 ERROR:Error in get_response: NLPUtils.categorize_request() missing 1 required positional argument: 'user_input'
+2024-09-27 01:45:21,951 INFO:Chatbot response: I'm sorry, but something went wrong. Please try again later.
+2024-09-27 01:45:21,951 INFO:127.0.0.1 - - [27/Sep/2024 01:45:21] "POST /chat HTTP/1.1" 200 -
+2024-09-27 01:47:40,277 INFO: * Detected change in 'D:\\Human and Social Services Chatbot\\src\\chatbot.py', reloading
+2024-09-27 01:47:47,808 INFO: * Restarting with stat
+2024-09-27 01:48:03,435 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-09-27 01:48:04,579 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-09-27 01:48:05,989 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-09-27 01:48:06,246 INFO:LLMModel initialized with GPT-2 model.
+2024-09-27 01:48:06,246 INFO:Chatbot initialized.
+2024-09-27 01:48:06,285 WARNING: * Debugger is active!
+2024-09-27 01:48:06,304 INFO: * Debugger PIN: 120-038-382
+2024-09-27 01:48:06,468 INFO:User input: Can you provide information on social services?
+2024-09-27 01:48:06,468 INFO:Received user input: Can you provide information on social services?
+2024-09-27 01:48:06,468 ERROR:Error processing request: NLPUtils.categorize_request() missing 1 required positional argument: 'user_input'
+2024-09-27 01:48:06,468 INFO:127.0.0.1 - - [27/Sep/2024 01:48:06] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2024-09-27 01:48:10,786 INFO:User input: Can you provide information on social services?
+2024-09-27 01:48:10,786 INFO:Received user input: Can you provide information on social services?
+2024-09-27 01:48:10,786 ERROR:Error processing request: NLPUtils.categorize_request() missing 1 required positional argument: 'user_input'
+2024-09-27 01:48:10,787 INFO:127.0.0.1 - - [27/Sep/2024 01:48:10] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2024-09-27 01:49:50,483 INFO: * Detected change in 'D:\\Human and Social Services Chatbot\\src\\resource_manager.py', reloading
+2024-09-27 01:49:55,463 INFO: * Restarting with stat
+2024-09-27 01:50:17,625 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-09-27 01:50:18,693 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-09-27 01:50:20,032 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-09-27 01:50:20,401 INFO:LLMModel initialized with GPT-2 model.
+2024-09-27 01:50:20,402 INFO:Chatbot initialized.
+2024-09-27 01:50:20,433 WARNING: * Debugger is active!
+2024-09-27 01:50:20,435 INFO: * Debugger PIN: 120-038-382
+2024-09-27 01:50:20,578 INFO:User input: Can you provide information on social services?
+2024-09-27 01:50:20,578 INFO:Received user input: Can you provide information on social services?
+2024-09-27 01:50:20,578 ERROR:Error processing request: NLPUtils.categorize_request() missing 1 required positional argument: 'user_input'
+2024-09-27 01:50:20,578 INFO:127.0.0.1 - - [27/Sep/2024 01:50:20] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2024-09-27 01:50:37,415 INFO: * Detected change in 'D:\\Human and Social Services Chatbot\\src\\chatbot.py', reloading
+2024-09-27 01:50:38,317 INFO: * Restarting with stat
+2024-09-27 01:50:45,684 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-09-27 01:50:46,486 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-09-27 01:50:46,938 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-09-27 01:50:47,915 INFO:LLMModel initialized with GPT-2 model.
+2024-09-27 01:50:47,915 INFO:Chatbot initialized.
+2024-09-27 01:50:47,928 WARNING: * Debugger is active!
+2024-09-27 01:50:47,931 INFO: * Debugger PIN: 120-038-382
+2024-09-27 01:51:11,687 INFO:User input: Can you provide information on social services?
+2024-09-27 01:51:11,688 INFO:Received user input: Can you provide information on social services?
+2024-09-27 01:51:11,688 ERROR:Error in get_response: NLPUtils.categorize_request() missing 1 required positional argument: 'user_input'
+2024-09-27 01:51:11,688 INFO:Chatbot response: I'm sorry, but something went wrong. Please try again later.
+2024-09-27 01:51:11,688 INFO:127.0.0.1 - - [27/Sep/2024 01:51:11] "POST /chat HTTP/1.1" 200 -
+2024-09-27 01:54:19,809 INFO: * Detected change in 'D:\\Human and Social Services Chatbot\\src\\chatbot.py', reloading
+2024-09-27 01:54:26,391 INFO: * Restarting with stat
+2024-09-27 01:54:49,855 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-09-27 01:54:51,052 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-09-27 01:54:52,525 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-09-27 01:54:52,931 INFO:LLMModel initialized with GPT-2 model.
+2024-09-27 01:54:52,931 INFO:Chatbot initialized.
+2024-09-27 01:54:52,995 WARNING: * Debugger is active!
+2024-09-27 01:54:53,018 INFO: * Debugger PIN: 120-038-382
+2024-09-27 01:54:53,166 INFO:User input: Can you provide information on social services?
+2024-09-27 01:54:53,166 INFO:Received user input: Can you provide information on social services?
+2024-09-27 01:54:53,166 ERROR:Error in get_response: NLPUtils.categorize_request() missing 1 required positional argument: 'user_input'
+2024-09-27 01:54:53,166 INFO:Chatbot response: I'm sorry, but something went wrong. Please try again later.
+2024-09-27 01:54:53,167 INFO:127.0.0.1 - - [27/Sep/2024 01:54:53] "POST /chat HTTP/1.1" 200 -
+2024-09-27 01:56:05,580 INFO: * Detected change in 'D:\\Human and Social Services Chatbot\\src\\llm_model.py', reloading
+2024-09-27 01:56:06,849 INFO: * Restarting with stat
+2024-09-27 01:56:20,691 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-09-27 01:56:21,928 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-09-27 01:56:23,719 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-09-27 01:56:24,151 INFO:LLMModel initialized with GPT-2 model.
+2024-09-27 01:56:24,151 INFO:Chatbot initialized.
+2024-09-27 01:56:24,182 WARNING: * Debugger is active!
+2024-09-27 01:56:24,186 INFO: * Debugger PIN: 120-038-382
+2024-09-27 01:56:24,320 INFO:User input: Can you provide information on social services?
+2024-09-27 01:56:24,320 INFO:Received user input: Can you provide information on social services?
+2024-09-27 01:56:24,321 ERROR:Error in get_response: NLPUtils.categorize_request() missing 1 required positional argument: 'user_input'
+2024-09-27 01:56:24,321 INFO:Chatbot response: I'm sorry, but something went wrong. Please try again later.
+2024-09-27 01:56:24,321 INFO:127.0.0.1 - - [27/Sep/2024 01:56:24] "POST /chat HTTP/1.1" 200 -
+2024-09-27 01:56:33,358 INFO: * Detected change in 'D:\\Human and Social Services Chatbot\\src\\llm_model.py', reloading
+2024-09-27 01:56:34,294 INFO: * Restarting with stat
+2024-09-27 01:56:40,320 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-09-27 01:56:41,204 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-09-27 01:56:41,719 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-09-27 01:56:41,868 INFO:LLMModel initialized with GPT-2 model.
+2024-09-27 01:56:41,869 INFO:Chatbot initialized.
+2024-09-27 01:56:41,876 WARNING: * Debugger is active!
+2024-09-27 01:56:41,878 INFO: * Debugger PIN: 120-038-382
+2024-09-27 01:56:52,049 INFO: * Detected change in 'D:\\Human and Social Services Chatbot\\src\\llm_model.py', reloading
+2024-09-27 01:56:52,653 INFO: * Restarting with stat
+2024-09-27 01:56:57,112 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-09-27 01:56:57,996 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-09-27 01:56:58,669 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-09-27 01:56:58,877 INFO:LLMModel initialized with GPT-2 model.
+2024-09-27 01:56:58,877 INFO:Chatbot initialized.
+2024-09-27 01:56:58,886 WARNING: * Debugger is active!
+2024-09-27 01:56:58,889 INFO: * Debugger PIN: 120-038-382
+2024-09-27 01:57:00,687 INFO:User input: Can you provide information on social services?
+2024-09-27 01:57:00,688 INFO:Received user input: Can you provide information on social services?
+2024-09-27 01:57:00,688 ERROR:Error in get_response: NLPUtils.categorize_request() missing 1 required positional argument: 'user_input'
+2024-09-27 01:57:00,688 INFO:Chatbot response: I'm sorry, but something went wrong. Please try again later.
+2024-09-27 01:57:00,688 INFO:127.0.0.1 - - [27/Sep/2024 01:57:00] "POST /chat HTTP/1.1" 200 -
+2024-09-27 01:57:29,127 INFO: * Detected change in 'D:\\Human and Social Services Chatbot\\src\\llm_model.py', reloading
+2024-09-27 01:57:30,028 INFO: * Restarting with stat
+2024-09-27 01:57:35,594 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-09-27 01:57:36,735 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-09-27 01:57:37,663 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-09-27 01:57:37,836 INFO:LLMModel initialized with GPT-2 model.
+2024-09-27 01:57:37,836 INFO:Chatbot initialized.
+2024-09-27 01:57:37,845 WARNING: * Debugger is active!
+2024-09-27 01:57:37,846 INFO: * Debugger PIN: 120-038-382
+2024-09-27 02:04:53,615 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-09-27 02:04:54,835 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-09-27 02:04:56,500 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-09-27 02:04:56,817 INFO:LLMModel initialized with GPT-2 model.
+2024-09-27 02:04:56,818 INFO:Chatbot initialized.
+2024-09-27 02:04:56,889 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-27 02:04:56,889 INFO:[33mPress CTRL+C to quit[0m
+2024-09-27 02:04:56,891 INFO: * Restarting with stat
+2024-09-27 02:05:04,862 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-09-27 02:05:05,748 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-09-27 02:05:06,382 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-09-27 02:05:06,562 INFO:LLMModel initialized with GPT-2 model.
+2024-09-27 02:05:06,562 INFO:Chatbot initialized.
+2024-09-27 02:05:06,595 WARNING: * Debugger is active!
+2024-09-27 02:05:06,612 INFO: * Debugger PIN: 120-038-382
+2024-09-27 02:05:25,893 INFO:User input: Can you provide information on social services?
+2024-09-27 02:05:25,894 INFO:Received user input: Can you provide information on social services?
+2024-09-27 02:05:25,894 ERROR:Error in get_response: NLPUtils.categorize_request() missing 1 required positional argument: 'user_input'
+2024-09-27 02:05:25,931 INFO:Chatbot response: I'm sorry, but something went wrong. Please try again later.
+2024-09-27 02:05:25,932 INFO:127.0.0.1 - - [27/Sep/2024 02:05:25] "POST /chat HTTP/1.1" 200 -
+2024-09-27 02:08:33,657 INFO: * Detected change in 'D:\\Human and Social Services Chatbot\\src\\app.py', reloading
+2024-09-27 02:09:06,965 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-09-27 02:09:08,203 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-09-27 02:09:09,571 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-09-27 02:09:09,878 INFO:LLMModel initialized with GPT-2 model.
+2024-09-27 02:09:09,878 INFO:Chatbot initialized.
+2024-09-27 02:09:09,974 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-27 02:09:09,974 INFO:[33mPress CTRL+C to quit[0m
+2024-09-27 02:09:09,976 INFO: * Restarting with stat
+2024-09-27 02:09:19,761 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-09-27 02:09:20,663 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-09-27 02:09:21,316 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-09-27 02:09:21,514 INFO:LLMModel initialized with GPT-2 model.
+2024-09-27 02:09:21,515 INFO:Chatbot initialized.
+2024-09-27 02:09:21,545 WARNING: * Debugger is active!
+2024-09-27 02:09:21,616 INFO: * Debugger PIN: 120-038-382
+2024-09-27 02:09:21,757 INFO:User input: Can you provide information on social services?
+2024-09-27 02:09:21,757 INFO:Received user input: Can you provide information on social services?
+2024-09-27 02:09:21,757 ERROR:Error in get_response: NLPUtils.categorize_request() missing 1 required positional argument: 'user_input'
+2024-09-27 02:09:21,757 INFO:Chatbot response: I'm sorry, but something went wrong. Please try again later.
+2024-09-27 02:09:21,758 INFO:127.0.0.1 - - [27/Sep/2024 02:09:21] "POST /chat HTTP/1.1" 200 -
+2024-09-27 02:10:19,314 INFO: * Detected change in 'D:\\Human and Social Services Chatbot\\src\\chatbot.py', reloading
+2024-09-27 02:10:20,559 INFO: * Restarting with stat
+2024-09-27 02:10:31,181 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-09-27 02:10:32,428 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-09-27 02:10:33,577 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-09-27 02:10:33,781 INFO:LLMModel initialized with GPT-2 model.
+2024-09-27 02:10:33,782 INFO:NLPUtils initialized.
+2024-09-27 02:10:33,782 INFO:ResourceManager initialized with resource file: D:\Human and Social Services Chatbot\data\local_resources.json
+2024-09-27 02:10:33,782 INFO:FeedbackHandler initialized with feedback file: D:/Human and Social Services Chatbot/data/user_feedback.csv
+2024-09-27 02:10:33,782 INFO:Chatbot initialized.
+2024-09-27 02:10:33,817 WARNING: * Debugger is active!
+2024-09-27 02:10:33,821 INFO: * Debugger PIN: 120-038-382
+2024-09-27 02:10:33,936 INFO:User input: Can you provide information on social services?
+2024-09-27 02:10:33,936 INFO:Received user input: Can you provide information on social services?
+2024-09-27 02:10:33,936 INFO:Categorizing user input: Can you provide information on social services?
+2024-09-27 02:10:34,047 DEBUG:Tokenized input: ['can', 'you', 'provide', 'information', 'on', 'social', 'services', '?']
+2024-09-27 02:10:34,047 INFO:Categorized input as: general inquiry
+2024-09-27 02:10:34,047 INFO:Fetching resources for category: general inquiry
+2024-09-27 02:10:34,058 INFO:Fetched resources: []
+2024-09-27 02:10:34,058 INFO:Generating response for user input: Can you provide information on social services?
+2024-09-27 02:10:42,791 INFO:Response generated successfully.
+2024-09-27 02:10:42,792 INFO:No resources found, generating response using LLM.
+2024-09-27 02:10:42,792 INFO:Chatbot response: Can you provide information on social services?
+
+A: Yeah. Right now, we have all that sort of thing. So yeah, that's a little bit of a big decision. I want to answer you if I can.
+
+Q
+2024-09-27 02:10:42,799 INFO:127.0.0.1 - - [27/Sep/2024 02:10:42] "POST /chat HTTP/1.1" 200 -
+2024-09-27 02:11:24,359 INFO:User input: What healthcare services are available?
+2024-09-27 02:11:24,360 INFO:Received user input: What healthcare services are available?
+2024-09-27 02:11:24,361 INFO:Categorizing user input: What healthcare services are available?
+2024-09-27 02:11:24,373 DEBUG:Tokenized input: ['what', 'healthcare', 'services', 'are', 'available', '?']
+2024-09-27 02:11:24,373 INFO:Categorized input as: general inquiry
+2024-09-27 02:11:24,374 INFO:Fetching resources for category: general inquiry
+2024-09-27 02:11:24,662 INFO:Fetched resources: []
+2024-09-27 02:11:24,663 INFO:Generating response for user input: What healthcare services are available?
+2024-09-27 02:11:31,502 INFO:Response generated successfully.
+2024-09-27 02:11:31,502 INFO:No resources found, generating response using LLM.
+2024-09-27 02:11:31,502 INFO:Chatbot response: What healthcare services are available?
+
+Healthcare services are available for both residents and business residents who are a member of Medicare or Medicaid to:
+
+
+• Support their individual and family budgets, or provide financial assistance when they reach financial financial needs,
+2024-09-27 02:11:31,503 INFO:127.0.0.1 - - [27/Sep/2024 02:11:31] "POST /chat HTTP/1.1" 200 -
+2024-09-27 02:13:16,500 INFO:User input: What are the options for low-income housing?
+2024-09-27 02:13:16,500 INFO:Received user input: What are the options for low-income housing?
+2024-09-27 02:13:16,500 INFO:Categorizing user input: What are the options for low-income housing?
+2024-09-27 02:13:16,500 DEBUG:Tokenized input: ['what', 'are', 'the', 'options', 'for', 'low-income', 'housing', '?']
+2024-09-27 02:13:16,500 INFO:Categorized input as: housing
+2024-09-27 02:13:16,500 INFO:Fetching resources for category: housing
+2024-09-27 02:13:16,501 INFO:Fetched resources: [{'name': 'Shelter A', 'address': '123 Main St, Anytown, USA', 'phone': '555-1234', 'website': 'http://sheltera.com', 'services': ['Emergency shelter', 'Transitional housing', 'Housing assistance']}, {'name': 'Shelter B', 'address': '456 Oak St, Anytown, USA', 'phone': '555-5678', 'website': 'http://shelterb.com', 'services': ['Short-term housing', 'Food assistance']}]
+2024-09-27 02:13:16,503 ERROR:Error in get_response: sequence item 0: expected str instance, dict found
+2024-09-27 02:13:16,503 INFO:Chatbot response: I'm sorry, but something went wrong. Please try again later.
+2024-09-27 02:13:16,503 INFO:127.0.0.1 - - [27/Sep/2024 02:13:16] "POST /chat HTTP/1.1" 200 -
+2024-09-27 02:13:19,196 INFO:User input: What are the options for low-income housing?
+2024-09-27 02:13:19,197 INFO:Received user input: What are the options for low-income housing?
+2024-09-27 02:13:19,197 INFO:Categorizing user input: What are the options for low-income housing?
+2024-09-27 02:13:19,197 DEBUG:Tokenized input: ['what', 'are', 'the', 'options', 'for', 'low-income', 'housing', '?']
+2024-09-27 02:13:19,197 INFO:Categorized input as: housing
+2024-09-27 02:13:19,197 INFO:Fetching resources for category: housing
+2024-09-27 02:13:19,198 INFO:Fetched resources: [{'name': 'Shelter A', 'address': '123 Main St, Anytown, USA', 'phone': '555-1234', 'website': 'http://sheltera.com', 'services': ['Emergency shelter', 'Transitional housing', 'Housing assistance']}, {'name': 'Shelter B', 'address': '456 Oak St, Anytown, USA', 'phone': '555-5678', 'website': 'http://shelterb.com', 'services': ['Short-term housing', 'Food assistance']}]
+2024-09-27 02:13:19,198 ERROR:Error in get_response: sequence item 0: expected str instance, dict found
+2024-09-27 02:13:19,198 INFO:Chatbot response: I'm sorry, but something went wrong. Please try again later.
+2024-09-27 02:13:19,199 INFO:127.0.0.1 - - [27/Sep/2024 02:13:19] "POST /chat HTTP/1.1" 200 -
+2024-09-27 02:13:22,424 INFO:User input: What are the options for low-income housing?
+2024-09-27 02:13:22,424 INFO:Received user input: What are the options for low-income housing?
+2024-09-27 02:13:22,424 INFO:Categorizing user input: What are the options for low-income housing?
+2024-09-27 02:13:22,424 DEBUG:Tokenized input: ['what', 'are', 'the', 'options', 'for', 'low-income', 'housing', '?']
+2024-09-27 02:13:22,424 INFO:Categorized input as: housing
+2024-09-27 02:13:22,425 INFO:Fetching resources for category: housing
+2024-09-27 02:13:22,425 INFO:Fetched resources: [{'name': 'Shelter A', 'address': '123 Main St, Anytown, USA', 'phone': '555-1234', 'website': 'http://sheltera.com', 'services': ['Emergency shelter', 'Transitional housing', 'Housing assistance']}, {'name': 'Shelter B', 'address': '456 Oak St, Anytown, USA', 'phone': '555-5678', 'website': 'http://shelterb.com', 'services': ['Short-term housing', 'Food assistance']}]
+2024-09-27 02:13:22,425 ERROR:Error in get_response: sequence item 0: expected str instance, dict found
+2024-09-27 02:13:22,425 INFO:Chatbot response: I'm sorry, but something went wrong. Please try again later.
+2024-09-27 02:13:22,426 INFO:127.0.0.1 - - [27/Sep/2024 02:13:22] "POST /chat HTTP/1.1" 200 -
+2024-09-27 02:13:37,812 INFO:User input: Do you have information on temporary housing?
+2024-09-27 02:13:37,812 INFO:Received user input: Do you have information on temporary housing?
+2024-09-27 02:13:37,812 INFO:Categorizing user input: Do you have information on temporary housing?
+2024-09-27 02:13:37,813 DEBUG:Tokenized input: ['do', 'you', 'have', 'information', 'on', 'temporary', 'housing', '?']
+2024-09-27 02:13:37,813 INFO:Categorized input as: housing
+2024-09-27 02:13:37,813 INFO:Fetching resources for category: housing
+2024-09-27 02:13:37,814 INFO:Fetched resources: [{'name': 'Shelter A', 'address': '123 Main St, Anytown, USA', 'phone': '555-1234', 'website': 'http://sheltera.com', 'services': ['Emergency shelter', 'Transitional housing', 'Housing assistance']}, {'name': 'Shelter B', 'address': '456 Oak St, Anytown, USA', 'phone': '555-5678', 'website': 'http://shelterb.com', 'services': ['Short-term housing', 'Food assistance']}]
+2024-09-27 02:13:37,814 ERROR:Error in get_response: sequence item 0: expected str instance, dict found
+2024-09-27 02:13:37,814 INFO:Chatbot response: I'm sorry, but something went wrong. Please try again later.
+2024-09-27 02:13:37,815 INFO:127.0.0.1 - - [27/Sep/2024 02:13:37] "POST /chat HTTP/1.1" 200 -
+2024-09-27 02:13:51,867 INFO:User input: What healthcare services are available?
+2024-09-27 02:13:51,867 INFO:Received user input: What healthcare services are available?
+2024-09-27 02:13:51,867 INFO:Categorizing user input: What healthcare services are available?
+2024-09-27 02:13:51,867 DEBUG:Tokenized input: ['what', 'healthcare', 'services', 'are', 'available', '?']
+2024-09-27 02:13:51,867 INFO:Categorized input as: general inquiry
+2024-09-27 02:13:51,867 INFO:Fetching resources for category: general inquiry
+2024-09-27 02:13:51,868 INFO:Fetched resources: []
+2024-09-27 02:13:51,868 INFO:Generating response for user input: What healthcare services are available?
+2024-09-27 02:13:57,708 INFO:Response generated successfully.
+2024-09-27 02:13:57,709 INFO:No resources found, generating response using LLM.
+2024-09-27 02:13:57,709 INFO:Chatbot response: What healthcare services are available? What type of facilities are being built? What type of public resources are available? Are facilities capable of meeting all of those criteria? Does the population of the country demand more health and treatment? What are the health benefits of
+2024-09-27 02:13:57,710 INFO:127.0.0.1 - - [27/Sep/2024 02:13:57] "POST /chat HTTP/1.1" 200 -
+2024-09-27 02:16:17,434 INFO: * Detected change in 'D:\\Human and Social Services Chatbot\\src\\chatbot.py', reloading
+2024-09-27 02:16:21,579 INFO: * Restarting with stat
+2024-09-27 02:16:55,034 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-09-27 02:16:56,259 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-09-27 02:16:58,514 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-09-27 02:16:58,829 INFO:LLMModel initialized with GPT-2 model.
+2024-09-27 02:16:58,829 INFO:NLPUtils initialized.
+2024-09-27 02:16:58,829 INFO:ResourceManager initialized with resource file: D:\Human and Social Services Chatbot\data\local_resources.json
+2024-09-27 02:16:58,829 INFO:FeedbackHandler initialized with feedback file: D:/Human and Social Services Chatbot/data/user_feedback.csv
+2024-09-27 02:16:58,830 INFO:Chatbot initialized.
+2024-09-27 02:16:58,885 WARNING: * Debugger is active!
+2024-09-27 02:16:58,903 INFO: * Debugger PIN: 120-038-382
+2024-09-27 02:17:09,366 INFO:User input: Do you have information on temporary housing?
+2024-09-27 02:17:09,366 INFO:Received user input: Do you have information on temporary housing?
+2024-09-27 02:17:09,366 INFO:Categorizing user input: Do you have information on temporary housing?
+2024-09-27 02:17:09,422 DEBUG:Tokenized input: ['do', 'you', 'have', 'information', 'on', 'temporary', 'housing', '?']
+2024-09-27 02:17:09,422 INFO:Categorized input as: housing
+2024-09-27 02:17:09,422 INFO:Fetching resources for category: housing
+2024-09-27 02:17:09,436 INFO:Fetched resources: [{'name': 'Shelter A', 'address': '123 Main St, Anytown, USA', 'phone': '555-1234', 'website': 'http://sheltera.com', 'services': ['Emergency shelter', 'Transitional housing', 'Housing assistance']}, {'name': 'Shelter B', 'address': '456 Oak St, Anytown, USA', 'phone': '555-5678', 'website': 'http://shelterb.com', 'services': ['Short-term housing', 'Food assistance']}]
+2024-09-27 02:17:09,436 ERROR:Error in get_response: sequence item 0: expected str instance, dict found
+2024-09-27 02:17:09,436 INFO:Chatbot response: I'm sorry, but something went wrong. Please try again later.
+2024-09-27 02:17:09,437 INFO:127.0.0.1 - - [27/Sep/2024 02:17:09] "POST /chat HTTP/1.1" 200 -
+2024-09-27 02:17:11,176 INFO:User input: Do you have information on temporary housing?
+2024-09-27 02:17:11,176 INFO:Received user input: Do you have information on temporary housing?
+2024-09-27 02:17:11,176 INFO:Categorizing user input: Do you have information on temporary housing?
+2024-09-27 02:17:11,176 DEBUG:Tokenized input: ['do', 'you', 'have', 'information', 'on', 'temporary', 'housing', '?']
+2024-09-27 02:17:11,176 INFO:Categorized input as: housing
+2024-09-27 02:17:11,176 INFO:Fetching resources for category: housing
+2024-09-27 02:17:11,176 INFO:Fetched resources: [{'name': 'Shelter A', 'address': '123 Main St, Anytown, USA', 'phone': '555-1234', 'website': 'http://sheltera.com', 'services': ['Emergency shelter', 'Transitional housing', 'Housing assistance']}, {'name': 'Shelter B', 'address': '456 Oak St, Anytown, USA', 'phone': '555-5678', 'website': 'http://shelterb.com', 'services': ['Short-term housing', 'Food assistance']}]
+2024-09-27 02:17:11,176 ERROR:Error in get_response: sequence item 0: expected str instance, dict found
+2024-09-27 02:17:11,176 INFO:Chatbot response: I'm sorry, but something went wrong. Please try again later.
+2024-09-27 02:17:11,177 INFO:127.0.0.1 - - [27/Sep/2024 02:17:11] "POST /chat HTTP/1.1" 200 -
+2024-09-27 02:19:02,339 INFO: * Detected change in 'D:\\Human and Social Services Chatbot\\src\\chatbot.py', reloading
+2024-09-27 02:19:05,465 INFO: * Restarting with stat
+2024-09-27 02:19:23,577 DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+2024-09-27 02:19:24,786 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-09-27 02:19:26,910 DEBUG:https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/11" 200 0
+2024-09-27 02:19:27,362 INFO:LLMModel initialized with GPT-2 model.
+2024-09-27 02:19:27,362 INFO:NLPUtils initialized.
+2024-09-27 02:19:27,362 INFO:ResourceManager initialized with resource file: D:\Human and Social Services Chatbot\data\local_resources.json
+2024-09-27 02:19:27,362 INFO:FeedbackHandler initialized with feedback file: D:/Human and Social Services Chatbot/data/user_feedback.csv
+2024-09-27 02:19:27,363 INFO:Chatbot initialized.
+2024-09-27 02:19:27,443 WARNING: * Debugger is active!
+2024-09-27 02:19:27,465 INFO: * Debugger PIN: 120-038-382
+2024-09-27 02:19:27,711 INFO:User input: Do you have information on temporary housing?
+2024-09-27 02:19:27,712 INFO:Received user input: Do you have information on temporary housing?
+2024-09-27 02:19:27,712 INFO:Categorizing user input: Do you have information on temporary housing?
+2024-09-27 02:19:27,783 DEBUG:Tokenized input: ['do', 'you', 'have', 'information', 'on', 'temporary', 'housing', '?']
+2024-09-27 02:19:27,783 INFO:Categorized input as: housing
+2024-09-27 02:19:27,784 INFO:Fetching resources for category: housing
+2024-09-27 02:19:27,795 INFO:Fetched resources: [{'name': 'Shelter A', 'address': '123 Main St, Anytown, USA', 'phone': '555-1234', 'website': 'http://sheltera.com', 'services': ['Emergency shelter', 'Transitional housing', 'Housing assistance']}, {'name': 'Shelter B', 'address': '456 Oak St, Anytown, USA', 'phone': '555-5678', 'website': 'http://shelterb.com', 'services': ['Short-term housing', 'Food assistance']}]
+2024-09-27 02:19:27,795 INFO:Found resources: [{'name': 'Shelter A', 'address': '123 Main St, Anytown, USA', 'phone': '555-1234', 'website': 'http://sheltera.com', 'services': ['Emergency shelter', 'Transitional housing', 'Housing assistance']}, {'name': 'Shelter B', 'address': '456 Oak St, Anytown, USA', 'phone': '555-5678', 'website': 'http://shelterb.com', 'services': ['Short-term housing', 'Food assistance']}]
+2024-09-27 02:19:27,795 INFO:Chatbot response: I found some resources for you: Shelter A (Address: 123 Main St, Anytown, USA, Phone: 555-1234, Website: http://sheltera.com), Shelter B (Address: 456 Oak St, Anytown, USA, Phone: 555-5678, Website: http://shelterb.com)
+2024-09-27 02:19:27,796 INFO:127.0.0.1 - - [27/Sep/2024 02:19:27] "POST /chat HTTP/1.1" 200 -
+2024-09-27 02:19:39,546 INFO:User input: Do you have information on temporary housing?
+2024-09-27 02:19:39,546 INFO:Received user input: Do you have information on temporary housing?
+2024-09-27 02:19:39,547 INFO:Categorizing user input: Do you have information on temporary housing?
+2024-09-27 02:19:39,547 DEBUG:Tokenized input: ['do', 'you', 'have', 'information', 'on', 'temporary', 'housing', '?']
+2024-09-27 02:19:39,547 INFO:Categorized input as: housing
+2024-09-27 02:19:39,547 INFO:Fetching resources for category: housing
+2024-09-27 02:19:39,547 INFO:Fetched resources: [{'name': 'Shelter A', 'address': '123 Main St, Anytown, USA', 'phone': '555-1234', 'website': 'http://sheltera.com', 'services': ['Emergency shelter', 'Transitional housing', 'Housing assistance']}, {'name': 'Shelter B', 'address': '456 Oak St, Anytown, USA', 'phone': '555-5678', 'website': 'http://shelterb.com', 'services': ['Short-term housing', 'Food assistance']}]
+2024-09-27 02:19:39,547 INFO:Found resources: [{'name': 'Shelter A', 'address': '123 Main St, Anytown, USA', 'phone': '555-1234', 'website': 'http://sheltera.com', 'services': ['Emergency shelter', 'Transitional housing', 'Housing assistance']}, {'name': 'Shelter B', 'address': '456 Oak St, Anytown, USA', 'phone': '555-5678', 'website': 'http://shelterb.com', 'services': ['Short-term housing', 'Food assistance']}]
+2024-09-27 02:19:39,547 INFO:Chatbot response: I found some resources for you: Shelter A (Address: 123 Main St, Anytown, USA, Phone: 555-1234, Website: http://sheltera.com), Shelter B (Address: 456 Oak St, Anytown, USA, Phone: 555-5678, Website: http://shelterb.com)
+2024-09-27 02:19:39,548 INFO:127.0.0.1 - - [27/Sep/2024 02:19:39] "POST /chat HTTP/1.1" 200 -
+2024-09-27 02:19:45,121 INFO:User input: What are the options for low-income housing?
+2024-09-27 02:19:45,121 INFO:Received user input: What are the options for low-income housing?
+2024-09-27 02:19:45,121 INFO:Categorizing user input: What are the options for low-income housing?
+2024-09-27 02:19:45,121 DEBUG:Tokenized input: ['what', 'are', 'the', 'options', 'for', 'low-income', 'housing', '?']
+2024-09-27 02:19:45,122 INFO:Categorized input as: housing
+2024-09-27 02:19:45,122 INFO:Fetching resources for category: housing
+2024-09-27 02:19:45,123 INFO:Fetched resources: [{'name': 'Shelter A', 'address': '123 Main St, Anytown, USA', 'phone': '555-1234', 'website': 'http://sheltera.com', 'services': ['Emergency shelter', 'Transitional housing', 'Housing assistance']}, {'name': 'Shelter B', 'address': '456 Oak St, Anytown, USA', 'phone': '555-5678', 'website': 'http://shelterb.com', 'services': ['Short-term housing', 'Food assistance']}]
+2024-09-27 02:19:45,123 INFO:Found resources: [{'name': 'Shelter A', 'address': '123 Main St, Anytown, USA', 'phone': '555-1234', 'website': 'http://sheltera.com', 'services': ['Emergency shelter', 'Transitional housing', 'Housing assistance']}, {'name': 'Shelter B', 'address': '456 Oak St, Anytown, USA', 'phone': '555-5678', 'website': 'http://shelterb.com', 'services': ['Short-term housing', 'Food assistance']}]
+2024-09-27 02:19:45,123 INFO:Chatbot response: I found some resources for you: Shelter A (Address: 123 Main St, Anytown, USA, Phone: 555-1234, Website: http://sheltera.com), Shelter B (Address: 456 Oak St, Anytown, USA, Phone: 555-5678, Website: http://shelterb.com)
+2024-09-27 02:19:45,123 INFO:127.0.0.1 - - [27/Sep/2024 02:19:45] "POST /chat HTTP/1.1" 200 -
+2024-09-27 02:19:51,619 INFO:User input: What healthcare services are available?
+2024-09-27 02:19:51,619 INFO:Received user input: What healthcare services are available?
+2024-09-27 02:19:51,620 INFO:Categorizing user input: What healthcare services are available?
+2024-09-27 02:19:51,620 DEBUG:Tokenized input: ['what', 'healthcare', 'services', 'are', 'available', '?']
+2024-09-27 02:19:51,620 INFO:Categorized input as: general inquiry
+2024-09-27 02:19:51,620 INFO:Fetching resources for category: general inquiry
+2024-09-27 02:19:51,620 INFO:Fetched resources: []
+2024-09-27 02:19:51,620 INFO:Generating response for user input: What healthcare services are available?
+2024-09-27 02:20:01,119 INFO:Response generated successfully.
+2024-09-27 02:20:01,121 INFO:No resources found, generating response using LLM.
+2024-09-27 02:20:01,121 INFO:Chatbot response: What healthcare services are available? How can anyone know their patients better than they already are?
+
+Yes, there really can be "no insurance", but most Americans would find such measures far more difficult to take than simply getting coverage through their state and
+2024-09-27 02:20:01,128 INFO:127.0.0.1 - - [27/Sep/2024 02:20:01] "POST /chat HTTP/1.1" 200 -

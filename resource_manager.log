@@ -1,0 +1,3 @@
+2024-09-27 02:03:31,240 INFO:ResourceManager initialized with resource file: D:\Human and Social Services Chatbot\data\local_resources.json
+2024-09-27 02:03:31,240 INFO:Fetching resources for category: housing
+2024-09-27 02:03:31,257 INFO:Fetched resources: [{'name': 'Shelter A', 'address': '123 Main St, Anytown, USA', 'phone': '555-1234', 'website': 'http://sheltera.com', 'services': ['Emergency shelter', 'Transitional housing', 'Housing assistance']}, {'name': 'Shelter B', 'address': '456 Oak St, Anytown, USA', 'phone': '555-5678', 'website': 'http://shelterb.com', 'services': ['Short-term housing', 'Food assistance']}]

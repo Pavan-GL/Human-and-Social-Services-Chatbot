@@ -1,0 +1,4 @@
+2024-09-27 02:03:43,881 INFO:FeedbackHandler initialized with feedback file: D:/Human and Social Services Chatbot/data/user_feedback.csv
+2024-09-27 02:03:43,881 INFO:Feedback file created: D:/Human and Social Services Chatbot/data/user_feedback.csv
+2024-09-27 02:03:43,881 INFO:Logging feedback for user input: What is the capital of France?
+2024-09-27 02:03:44,067 INFO:Feedback logged successfully.
